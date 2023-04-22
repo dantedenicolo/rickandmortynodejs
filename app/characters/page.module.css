@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding:  20px;
+    width: 100%;
+    justify-content: center;
+}
+
+.container li {
+    list-style: none;
+    margin: 10px;
+    width: 300px;
+    border: 1px solid rgb(103, 181, 103);
+    border-radius: 15px;
+}
+
+.container li img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.container li:hover {
+    transform: scale(1.05);
+}

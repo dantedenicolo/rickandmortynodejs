@@ -1,0 +1,16 @@
+.container {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.container p {
+    font-size: 1.4rem;
+    line-height: 190%;
+    padding: 10px;
+    text-align: center;
+}
+
+.container h1 {
+    color: #6cb471;
+    font-size: 3rem;
+}
